@@ -61,7 +61,7 @@ const SponsorUs = () => {
 
             {/* Sponsor Packet Button */}
             <a
-              href="/sponsor-packet.pdf"
+              href="/Team1280_Sponsorship_Deck.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="w-full sm:w-auto px-8 py-3.5 bg-transparent border border-zinc-500 text-white font-black uppercase text-xs sm:text-sm tracking-widest rounded-sm hover:bg-white/10 hover:border-white transition-all font-mono flex items-center justify-center gap-2"
@@ -175,7 +175,7 @@ const SponsorUs = () => {
         </div>
       </section>
 
-      {/* 3. Bottom Call To Action Section (Orange Variant matching image_7f2b2c) */}
+      {/* 3. Bottom Call To Action Section */}
       <section className="bg-[#fcc307] py-16 md:py-20 px-4 md:px-12 flex flex-col items-center justify-center text-center text-[#1f1e23]">
         <div className="max-w-4xl flex flex-col items-center gap-3">
           
@@ -198,7 +198,7 @@ const SponsorUs = () => {
               Become a Sponsor
             </Link>
 
-            {/* Contact Us - Now properly configured as a Link to your local contact page */}
+            {/* Contact Us */}
             <Link
               to="/contact"
               className="w-full sm:w-auto px-8 py-3.5 bg-transparent border border-zinc-800/60 text-[#1f1e23] font-black uppercase text-xs sm:text-sm tracking-widest rounded-sm hover:bg-[#1f1e23]/10 transition-all font-mono flex items-center justify-center gap-2"
