@@ -4,7 +4,7 @@ const Donate = () => {
   return (
     <>
       <link rel="canonical" href="https://www.team1280.com/donate" />
-      <title>Sponsor Us | Team 1280</title>
+      <title>Donate | Team 1280</title>
 
       {/* 1. Header Hero Section */}
       <section className="relative h-[45vh] lg:h-[55vh] w-full overflow-hidden bg-[#1f1e23] flex flex-col items-center justify-center text-center px-4 md:px-12 border-b border-zinc-800/80">
@@ -35,7 +35,7 @@ const Donate = () => {
             <span>Support The Team</span>
           </div>
 
-          {/* Large Title - Updated */}
+          {/* Large Title */}
           <h1 className="text-4xl sm:text-6xl md:text-7xl font-black uppercase tracking-tight text-white leading-tight">
             EMPOWER THE <span className="text-[#fcc307]">FUTURE</span>
           </h1>
@@ -76,8 +76,9 @@ const Donate = () => {
 
             <div className="w-full flex flex-col sm:flex-row gap-3 mt-auto">
               <a 
-                href="/sponsor-packet.pdf" 
-                download
+                href="/Team1280_Sponsorship_Deck.pdf" 
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-full sm:w-auto text-center px-6 py-3 bg-[#fcc307] text-[#1f1e23] font-black uppercase text-xs tracking-widest rounded-sm hover:bg-yellow-500 transition-all shadow-md flex items-center justify-center gap-2 font-mono"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
@@ -151,28 +152,28 @@ const Donate = () => {
             {/* Parts */}
             <div className="p-8 flex flex-col items-center justify-center text-center group transition-all duration-300 hover:bg-[#1f1e23]/60">
               <h3 className="text-[#fcc307] text-2xl font-black uppercase tracking-wide mb-2">Parts</h3>
-              <p className="text-zinc-400 text-xxs tracking-wider uppercase font-medium leading-relaxed max-w-[200px]">
+              <p className="text-zinc-400 text-xs tracking-wider uppercase font-medium leading-relaxed max-w-[200px]">
                 Raw materials, fasteners, composites, bearings
               </p>
             </div>
             {/* Travel */}
             <div className="p-8 flex flex-col items-center justify-center text-center group transition-all duration-300 hover:bg-[#1f1e23]/60">
               <h3 className="text-[#fcc307] text-2xl font-black uppercase tracking-wide mb-2">Travel</h3>
-              <p className="text-zinc-400 text-xxs tracking-wider uppercase font-medium leading-relaxed max-w-[200px]">
+              <p className="text-zinc-400 text-xs tracking-wider uppercase font-medium leading-relaxed max-w-[200px]">
                 Transportation to regional events and competitions
               </p>
             </div>
             {/* Software */}
             <div className="p-8 flex flex-col items-center justify-center text-center group transition-all duration-300 hover:bg-[#1f1e23]/60">
               <h3 className="text-[#fcc307] text-2xl font-black uppercase tracking-wide mb-2">Software</h3>
-              <p className="text-zinc-400 text-xxs tracking-wider uppercase font-medium leading-relaxed max-w-[200px]">
+              <p className="text-zinc-400 text-xs tracking-wider uppercase font-medium leading-relaxed max-w-[200px]">
                 CAD, simulation, and analysis tool licenses
               </p>
             </div>
-            {/* Equipment - Updated */}
+            {/* Equipment */}
             <div className="p-8 flex flex-col items-center justify-center text-center group transition-all duration-300 hover:bg-[#1f1e23]/60">
               <h3 className="text-[#fcc307] text-2xl font-black uppercase tracking-wide mb-2">Equipment</h3>
-              <p className="text-zinc-400 text-xxs tracking-wider uppercase font-medium leading-relaxed max-w-[200px]">
+              <p className="text-zinc-400 text-xs tracking-wider uppercase font-medium leading-relaxed max-w-[200px]">
                 Machinery tooling, diagnostic gear, hardware updates
               </p>
             </div>
@@ -193,7 +194,7 @@ const Donate = () => {
           <div className="mt-6 flex flex-col sm:flex-row gap-4 items-center justify-center w-full max-w-md">
             {/* Sponsor Packet Button */}
             <a
-              href="/sponsor-packet.pdf"
+              href="/Team1280_Sponsorship_Deck.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="w-full sm:w-auto px-8 py-3.5 bg-[#1f1e23] text-white font-black uppercase text-xs sm:text-sm tracking-widest rounded-sm hover:bg-black transition-all shadow-md flex items-center justify-center gap-2 font-mono"

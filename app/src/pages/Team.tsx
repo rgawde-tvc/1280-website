@@ -44,6 +44,8 @@ const MentorCard = ({ name, role, bio, links }: MentorProps) => {
     imagePath = '/mentors/Marty.png';
   } else if (lowName.includes('warren') || lowName.includes('lin')) {
     imagePath = '/mentors/Ren.webp'; // <-- Added override for Warren
+  } else if (lowName.includes('rohan') || lowName.includes('gawde')) {
+    imagePath = '/mentors/Rohan.jpg'; // <-- Added override for Rohan
   }
 
   return (
@@ -110,9 +112,9 @@ const Team = () => {
 
   const currentStudents: StudentProps[] = [
     { name: "Isaac Schmidt", role: "Team Captain", school: "SRVHS '27" },
-    { name: "Jayesh Rungta", role: "Team Captain", school: "Cal HS '29" },
+    { name: "Gray Garson", role: "Team Captain", school: "SRVHS '28" },
     { name: "Grayson Manz", role: "Fabrication Officer", school: "SRVHS '27" },
-    { name: "Taylor Schannon", role: "Design Officer", school: "SRVHS '29" },
+    { name: "Jayesh Rungta", role: "Design Officer", school: "CHS '29" },
     { name: "Wendy Zhao", role: "Programming Officer", school: "SRVHS '29" },
     { name: "Briar Chang", role: "Outreach Officer", school: "SRVHS '27" }
   ];
